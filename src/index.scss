@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; 
+  background-color: rgb(226, 219, 209);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  &.teal-green {
+    background-color: #16a085; 
+  }
+  &.green2 {
+    background-color: #27ae60; 
+  }
+  &.orange {
+    background-color: #f39c12;
+  }
+  &.red {
+    background-color: #e74c3c;
+  }
+  &.pink {
+    background-color: #FB6964;
+  }
+  &.greener {
+    background-color: #73A857l;
+  }
+  &.gray {
+    background-color: #4e4445;
+    color: #fff;
+    #quoteDisplay {
+      color: black;
+    }
+    .footer > a {
+      color: white;
+    }
+  }
+  &.navy {
+    background-color: #2c3e50;
+    color: #fff;
+    #quoteDisplay {
+      color: black;
+    }
+    .footer > a {
+      color: white;
+    }
+  }
+}
+
+.footer {
+  font-size: 12px; 
+  margin: 5px; 
+  text-decoration: none;
+  a {
+    text-align: center; 
+    font-size: 12px; 
+    text-decoration: none; 
+    color: black; 
+    margin: 5px; 
+  }
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.quote-box {
+  width: 450px; 
+  margin: 8% auto auto auto; 
+  padding: 40px; 
+  border-radius: 3px; 
+  background-color: rgb(255, 254, 254);
+
+  .submit-container {
+    display: flex;
+    padding: 15px; 
+    justify-content: center;
+  }
+  .quote-display {
+    text-align: center; 
+    width: 400px; 
+    height: auto; 
+    padding: 40px;
+    font-weight: 300;
+    font-size: 20px; 
+  }
+  .submit {
+    padding: 08px; 
+    margin: 10px; 
+    width: 110px; 
+    display: block; 
+    background-color: rgb(177, 176, 176);
+    color: white;
+    text-align: center;
+  }
+}
+
+
